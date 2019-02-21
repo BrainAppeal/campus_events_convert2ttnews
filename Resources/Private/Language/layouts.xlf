@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-07-10T16:27:31Z" product-name="campus_events_convert2news">
+		<header/>
+		<body>
+			<trans-unit id="tx_campus_events_convert2news.more_information">
+				<source>More information</source>
+			</trans-unit>
+			<trans-unit id="tx_campus_events_convert2news.more_information_title">
+				<source>Show more information at campus events</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

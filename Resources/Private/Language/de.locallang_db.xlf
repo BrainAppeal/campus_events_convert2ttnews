@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-07-10T16:27:31Z" product-name="campus_events_convert2news">
+		<header/>
+		<body>
+			<trans-unit id="tx_campuseventsconnector_domain_model_convertconfiguration.convert2ttnews">
+				<source>Convert2 TT News Configuration</source>
+				<target>Convert2 TT News Konfiguration</target>
+			</trans-unit>
+			<trans-unit id="tx_campuseventsconnector_domain_model_convertconfiguration.ttnews_type">
+				<source>TT News Typ</source>
+				<target>TT News Typ</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

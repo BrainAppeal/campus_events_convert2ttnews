@@ -1,0 +1,38 @@
+# ==============================================
+# Persistence object mapping configuration
+# ==============================================
+config.tx_extbase.persistence.classes {
+
+	BrainAppeal\CampusEventsConvert2Ttnews\Domain\Model\ConvertConfiguration {
+		subclasses {
+			2 = BrainAppeal\CampusEventsConvert2Ttnews\Domain\Model\Convert2TtNewsConfiguration
+		}
+	}
+
+	BrainAppeal\CampusEventsConvert2Ttnews\Domain\Model\Convert2TtNewsConfiguration {
+		mapping {
+			recordType = 2
+			tableName = tx_campuseventsconnector_domain_model_convertconfiguration
+		}
+	}
+
+
+	BrainAppeal\CampusEventsConvert2Ttnews\Domain\Model\TtNews {
+		mapping {
+			tableName = tt_news
+            columns {
+                # TCA Definition => Property Name
+                type.mapOnProperty = type
+                title.mapOnProperty = title
+                bodytext.mapOnProperty = bodytext
+                short.mapOnProperty = short
+                datetime.mapOnProperty = datetime
+                archivedate.mapOnProperty = archivedate
+                ext_url.mapOnProperty = externalUrl
+                news_files.mapOnProperty = newsFiles
+                image.mapOnProperty = images
+            }
+		}
+	}
+
+}

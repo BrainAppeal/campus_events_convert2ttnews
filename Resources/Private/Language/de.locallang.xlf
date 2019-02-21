@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-07-10T16:27:31Z" product-name="campus_events_convert2news">
+		<header/>
+		<body>
+			<trans-unit id="tx_campuseventsconnector_domain_model_convertconfiguration.convert2news">
+				<source>Convert2 News Configuration</source>
+				<target>Convert2 News Konfiguration</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

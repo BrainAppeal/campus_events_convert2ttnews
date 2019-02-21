@@ -1,0 +1,13 @@
+<ul>
+    <f:for each="{event.timeRanges}" as="timeRange">
+        <li>
+            <span>{timeRange.startDate -> f:format.date()}</span> - <span>{timeRange.endDate -> f:format.date()}</span>
+        </li>
+    </f:for>
+</ul>
+
+<f:format.raw value="{event.description}" />
+
+<a title="{f:translate(key: 'LLL:EXT:campus_events_convert2news/Resources/Private/Language/layouts.xlf:tx_campus_events_convert2news.more_information_title')}" class="btn btn-default" href="{event.url}">
+    <f:translate key="LLL:EXT:campus_events_convert2news/Resources/Private/Language/layouts.xlf:tx_campus_events_convert2news.more_information" />
+</a>
