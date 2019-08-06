@@ -2,9 +2,9 @@
 # Table structure for table 'tx_news_domain_model_news'
 #
 CREATE TABLE tt_news (
-	import_source varchar(255) DEFAULT NULL,
-	import_id int(11) unsigned DEFAULT NULL ,
-	imported_at int(11) unsigned DEFAULT NULL
+	ce_import_source varchar(255) DEFAULT NULL,
+	ce_import_id int(11) unsigned DEFAULT NULL ,
+	ce_imported_at int(11) unsigned DEFAULT NULL
 );
 
 #

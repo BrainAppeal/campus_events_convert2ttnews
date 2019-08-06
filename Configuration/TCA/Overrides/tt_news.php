@@ -17,7 +17,7 @@ defined('TYPO3_MODE') or die();
  * Add extra fiels
  */
 $importColumns = [
-    'import_source' => [
+    'ce_import_source' => [
         'exclude' => true,
         'label' => 'LLL:EXT:campus_events_connector/Resources/Private/Language/locallang_db.xlf:tx_campuseventsconnector_domain_model_category.name',
         'config' => [
@@ -26,7 +26,7 @@ $importColumns = [
             'eval' => 'trim'
         ],
     ],
-    'import_id' => [
+    'ce_import_id' => [
         'exclude' => true,
         'label' => 'LLL:EXT:campus_events_connector/Resources/Private/Language/locallang_db.xlf:tx_campuseventsconnector_domain_model_category.name',
         'config' => [
@@ -35,7 +35,7 @@ $importColumns = [
             'eval' => 'trim'
         ],
     ],
-    'imported_at' => [
+    'ce_imported_at' => [
         'exclude' => true,
         'label' => 'LLL:EXT:campus_events_connector/Resources/Private/Language/locallang_db.xlf:tx_campuseventsconnector_domain_model_category.name',
         'config' => [

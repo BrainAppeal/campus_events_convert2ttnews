@@ -14,6 +14,7 @@
 defined('TYPO3_MODE') or die();
 
 $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tx_campuseventsconnector']['postImport']['tx_campuseventsconvert2ttnews'] = \BrainAppeal\CampusEventsConvert2Ttnews\Hook\PostImportHook::class;
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['ext/install']['update']['importFieldNamesUpdateWizard'] = \BrainAppeal\CampusEventsConvert2Ttnews\Updates\ImportFieldNamesUpdateWizard::class;
 
 if (TYPO3_MODE === 'BE') {
     $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
